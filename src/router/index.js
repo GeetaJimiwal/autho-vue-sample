@@ -3,7 +3,7 @@ import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ProductListPage from '../views/ProductListPage'
 import CartPage from '../views/CartPage'
-import UserProfilePage from  '../views/UserProfilePage'
+import ProfileView from  '../views/ProfileView'
  
 
 
@@ -17,7 +17,7 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/product',
+    path: '/products',
     name: 'Product',
     component:ProductListPage
   },
@@ -27,9 +27,9 @@ const routes = [
     component: CartPage
   },
   {
-    path: '/User',
-    name: 'UserProfilePage',
-    component: UserProfilePage
+    path: '/Profile',
+    name: 'ProfileView',
+    component: ProfileView
   },
 ]
 
